@@ -1,0 +1,18 @@
+@mixin Text-Yellow {
+    font-size: 22px;
+    color: #f39f18;;
+    text-decoration: underline;
+}
+
+@mixin header-text {
+    font-size: 30px;
+    color: #2c3949;
+    font-family: PFCentroSlabProMediumRegular;
+    text-transform: uppercase;
+}
+
+@mixin title-text {
+    font-family: RalewayRegular;
+    font-size: 15px;
+    color: #828282;
+       }
