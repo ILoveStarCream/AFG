@@ -52,7 +52,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-family: ' '; }
 
-.wrap {
+.wrapper {
   position: relative;
   width: 100%;
   max-width: 100%; }
@@ -107,13 +107,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 8px;
     padding-top: 5px; }
 
-.header-rightblock {
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto; }
   @media screen and (max-width: 890px) {
-    .header-rightblock {
+    .nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-direction: column;
       flex-direction: column; } }
   @media screen and (max-width: 650px) {
-    .header-rightblock {
+    .nav {
       position: relative;
       z-index: 1; } }
 
